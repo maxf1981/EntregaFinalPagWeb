@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contacto</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/0853a5f1b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 <body>
     <div id="contenedor"> 
         <header class="header">
             <div class="logo">
-                <img src="../imagenes/studio tattoo3.jpg" alt="logo">
+                <img src="../Imagenes/studio tattoo3.jpg" alt="logo">
             </div>
             <nav class="menu">
                 <ul>
@@ -23,57 +26,70 @@
                 </ul>
             </nav>
         </header>
+        <div class="content">
+            <h1 class="logo1">Realizanos una consulta o agenda una cita</h1>
     
-        <Section>
-            <div>
-                <h2 class="subtitulos">Agenda una cita</h2>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    
+                    <form action="#">
+                        <p>
+                            <label>Nombre</label>
+                            <input type="text" name="nombre" id="nombre">
+                        </p>
+                        <p>
+                            <label>Correo electrónico</label>
+                            <input type="email" name="email">
+                        </p>
+                        <p>
+                            <label>Teléfono</label>
+                            <input type="tel" name="phone">
+                        </p>
+                        <p>
+                            <label>Asunto</label>
+                            <input type="text" name="affair">
+                        </p>
+                        <p class="block">
+                            <label>Mensaje</label>
+                            <textarea name="message" rows="3"></textarea>
+                        </p>
+                        <p class="block">
+                            <button type="enviar">
+                                Enviar
+                            </button>
+                        </p>
+                    </form>
+    
+                </div>
+                <div class="contact-info">
+                    <h4>Más info</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-street-view"></i> Avenida Siempre Viva 742</li>
+                        <li><i class="fa-solid fa-phone"></i> 555-1234</li>
+                        <li><i class="fa-solid fa-envelope"></i> info@skinartstudio.com</li>
+                    </ul>
+                    <p>
+                        ¡Vení a nuestro Estudio de Tatuajes y te diseñamos algo original para ti!
+                    </p>
+                    <p>skinartstudio.com</p>
+    
+                </div>
+    
             </div>
-        </Section> 
-      
-        <form action="enviar.php" method="enctype">
-            <div>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" placeholder=" Ingrese su nombre" required>
-            </div>
-            <div>
-                <label for="mail">Email</label>
-                <input required type="email" id="mail" name="mail">
-            </div>
-            <div>
-                <label for="Telefono">Teléfono</label>
-                <input required type="telefono" id="telefono" name="telefono">
-            </div>
-            <div>
-                <label for="Comentarios">Mensaje</label>
-                <textarea name="" id="Comentarios" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <input type="submit" value="Enviar ahora">
-                <input type="reset" value="Borrar todo">
-            </div>
-            <div>
-                <h3>Encuéntranos</h3>
-                <p>Somos un estudio de tatuajes situado en Buenos Aires, Argentina.</p>
-            </div>
-            <nav>
-                <ul type="none">
-                  <li> Avenida Siempre viva 742</li>
-                  <li> 555-4561 </li>
-                </ul>
-            </nav>       
-        </form>
-
+        </div>
+    
+        
         <footer id="footer">
             <div class="redes">
                 <a href="https://facebook.com/" target="_blank">
-                    <img src="../imagenes/facebook icon.png" alt="facebook icon">
+                    <img src="../Imagenes/facebook icon.png" alt="facebook icon">
                 </a>
                 <a href="https://instagram.com/" target="_blank">
-                    <img src="../imagenes/instagram icon.png" alt="instagram icon">
+                    <img src="../Imagenes/instagram icon.png" alt="instagram icon">
                 </a>
             </div>
             <div>
-                <P>copyright 2022</P>
+                <P>Copyright reserved by SKIN ART STUDIO 2022</P>
             </div>
         </footer>
     </div>   
